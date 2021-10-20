@@ -33,6 +33,7 @@ $podcasts = $podcasts_class->getRecent(50);
     <td><?= $podcast['author'] ?></td>
   </tr>
 <?php } ?>
+</table>
 <?php require('./tpl-footer.php'); ?>
 </body>
 </html>
