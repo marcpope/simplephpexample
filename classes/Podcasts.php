@@ -13,6 +13,7 @@ class Podcasts extends Database {
 		return $recentPodcasts;
 	}	
 
+	/* get a single podcast */
 	public function getPodcast($podcastid) {			
 										
 			$sql = "select * from podcasts where podcastid=$podcastid";
